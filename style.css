@@ -24,8 +24,23 @@ body {
     height: 40px;
 }
 
+/* searchbar styling */
+.search-bar-container{
+    border-radius: 1.25em;
+    background-color: #272729;
+    border: 1px solid transparent;
+}
+
+.search-bar{
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-radius: 1.25em;
+}
+
 .user-name-picture-container{
     display: flex;
+    align-items: center;
 }
 
 .profile-picture{
