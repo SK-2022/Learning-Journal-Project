@@ -7,10 +7,7 @@
 body {
     background-color: #030303
 }
-.home-button {
-    font-size: 2rem;
-}
-
+/* NAVBAR STYLING STARTS HERE */
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -19,7 +16,18 @@ body {
     background-color: #1A1A1B;
     color:#D7DADC;
     font-size: 4rem;
+    padding: 5px;
 }
+
+
+/* Home button styling */
+.home-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 3rem;
+}
+
 
 .logo{
     border-radius: 10%;
@@ -63,13 +71,50 @@ body {
     margin: 0 5px;
 }
 
+/* Profile picture and username */
 .user-name-picture-container{
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .profile-picture{
     border-radius: 10%;
     width: 40px;
     height: 40px;
+}
+
+/* NAVBAR STYLING ENDS HERE */
+
+/* MAIN GRID STYLING STARTS HERE */
+
+.main-grid-parent-container{
+    display: grid;
+    justify-content: center;
+    width: 100vw;
+    color: #D7DADC;
+    margin-top: 5px;
+    
+}
+
+.main-grid-container{
+    display: grid;
+    width: 1000px;
+    grid-template-columns: 2fr 1fr;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.center-area, .sidebar{
+    padding: 5px;
+    background-color: #1A1A1B;
+    border-radius: 10px;
+}
+
+.center-area{
+
+}
+
+.sidebar{
+
 }
