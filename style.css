@@ -95,7 +95,7 @@ body {
     justify-content: center;
     width: 100vw;
     color: #D7DADC;
-    margin-top: 5px;
+    margin-top: 20px;
     
 }
 
@@ -104,18 +104,22 @@ body {
     width: 1000px;
     grid-template-columns: 2fr 1fr;
     border-radius: 10px;
-    gap: 10px;
+    gap: 30px;
 }
 
-.center-area, .sidebar{
+ .sidebar{
     padding: 5px;
     background-color: #1A1A1B;
     border-radius: 10px;
+    outline: 1px solid rgb(65, 65, 65);
     
 }
 
 .center-area{
-    font-size: 50px
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    gap: 20px;
 }
 
 .sidebar{
@@ -123,7 +127,41 @@ body {
 }
 
 /* NOTE CARD STYLING */
-.note-heading{
+
+.note-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.note-card {
+    padding: 10px;
+    background-color: #1A1A1B;
+    border-radius: 10px;
+    outline: 1px solid rgb(65, 65, 65);
+}
+
+.note-heading, .note-subject-tag{
     font-size: 30px;
     font-weight: bold;
 }
+
+.note-subject-tag{
+    color: #1590BA;
+}
+
+.note-date-subheading{
+    font-size: 13px;
+    color: #797B7C;
+}
+
+.note-details{
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+.three-dot-button-container{
+    background-color: #414344;
+    border-radius: 5px;
+}
+
