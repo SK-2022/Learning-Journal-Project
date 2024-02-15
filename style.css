@@ -7,10 +7,13 @@
 body {
     background-color: #030303
 }
+.home-button {
+    font-size: 2rem;
+}
 
 .navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     border-bottom: black 1px solid;
     background-color: #1A1A1B;
@@ -26,16 +29,38 @@ body {
 
 /* searchbar styling */
 .search-bar-container{
+    display: flex;
     border-radius: 1.25em;
     background-color: #272729;
     border: 1px solid transparent;
 }
 
+.magnifying-glass-img-container + input:focus {
+    outline: none;
+}
+
 .search-bar{
     background-color: transparent;
     border: none;
-    color: white;
+    color: #D7DADC;
     border-radius: 1.25em;
+    height: 30px;
+    width: 500px;
+    
+}
+
+.magnifying-glass-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.magnifying-glass-img{
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
 }
 
 .user-name-picture-container{
