@@ -1,7 +1,9 @@
+
 * {
     box-sizing: border-box;
     font-size: 62.5%;
     margin: 0;
+    font-family: "Inter", sans-serif;
 }
 
 body {
@@ -109,12 +111,19 @@ body {
     padding: 5px;
     background-color: #1A1A1B;
     border-radius: 10px;
+    
 }
 
 .center-area{
-
+    font-size: 50px
 }
 
 .sidebar{
+    font-size: 30px;
+}
 
+/* NOTE CARD STYLING */
+.note-heading{
+    font-size: 30px;
+    font-weight: bold;
 }
