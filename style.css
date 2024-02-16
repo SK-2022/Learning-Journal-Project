@@ -126,7 +126,16 @@ body {
     font-size: 30px;
 }
 
-/* NOTE CARD STYLING */
+/* NOTE INPUT BAR STYLING START */
+
+.note-input-bar-container{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+
+
+/* NOTE CARD STYLING START */
 
 .note-header{
     display: flex;
@@ -165,3 +174,4 @@ body {
     border-radius: 5px;
 }
 
+/* NOTE CARD STYLING END */
