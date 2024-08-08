@@ -130,8 +130,14 @@ body {
 
 .note-input-bar-container{
     display: flex;
-    justify-content: center;
-    width: 100px;
+    justify-content: start;
+    /* I'm not sure how wide I should make this. */
+    /* width: 10px; */
+}
+
+.note-input-bar{
+    display: flex;
+    gap: 10px;
 }
 
 
@@ -140,7 +146,7 @@ body {
 .note-header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 .note-card {
